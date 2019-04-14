@@ -2,8 +2,8 @@ import dash
 import dash_table
 import pandas as pd
 
-df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/solar.csv')
-
+#df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/solar.csv')
+df = pd.read_csv('2011_us_ag_exports.csv')
 app = dash.Dash(__name__)
 
 server = app.server
